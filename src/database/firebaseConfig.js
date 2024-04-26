@@ -1,14 +1,18 @@
+
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
+
+
 const firebaseConfig = {
-    apiKey: "AIzaSyAbdsN4VlWRzL0lSEPWb2ibkvknX3zV7rI",
-    authDomain: "ronan-admin-evento.firebaseapp.com",
-    projectId: "ronan-admin-evento",
-    storageBucket: "ronan-admin-evento.appspot.com",
-    messagingSenderId: "345124784036",
-    appId: "1:345124784036:web:aeafbe7f139b649a64e331"
+  apiKey: "AIzaSyCDf_IiF8CgeeNFBeamR27E4GRa3xglfh8",
+  authDomain: "aularonan-c3128.firebaseapp.com",
+  projectId: "aularonan-c3128",
+  storageBucket: "aularonan-c3128.appspot.com",
+  messagingSenderId: "849182509828",
+  appId: "1:849182509828:web:24781f0769de2150805e51"
 };
 
+// Initialize Firebase
 const app = initializeApp(firebaseConfig);
 export const db = getFirestore(app);
